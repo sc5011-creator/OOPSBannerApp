@@ -1,19 +1,14 @@
 class HelloApp {
 
-    static void printOops() {
-
-        String banner = String.join("\n",
-            " OOOO   OOOO   PPPP    SSSS ",
-            "O    O O    O  P   P  S     ",
-            "O    O O    O  PPPP    SSS  ",
-            "O    O O    O  P          S ",
-            " OOOO   OOOO   P      SSSS  "
-        );
-
-        System.out.println(banner);
+    static void printOOPS() {
+        System.out.println("OOOO   OOOO   PPPP   SSSS");
+        System.out.println("O  O   O  O   P  P   S");
+        System.out.println("O  O   O  O   PPPP   SSSS");
+        System.out.println("O  O   O  O   P         S");
+        System.out.println("OOOO   OOOO   P     SSSS");
     }
 
     public static void main(String[] args) {
-        printOops();
+        printOOPS();
     }
 }
